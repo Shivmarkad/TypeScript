@@ -18,3 +18,13 @@ let myName : string = "shiv"
 let carName = "Suzuki"
 
 // carName = 123       //it also throw error as already declared value is of type string
+
+// types 
+//three main primitives in js & ts
+
+// boolean - true or false values
+// number - whole numbers and floating point values
+// string - text values like "TypeScript Rocks"
+
+// bigint - whole numbers and floating point values, but allows larger negative and positive numbers than the number type.
+// symbol are used to create a globally unique identifier.
