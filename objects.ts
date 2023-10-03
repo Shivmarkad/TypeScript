@@ -14,10 +14,10 @@ const student: {name: string, age: number, standard?: number} = {
     age: 19
 }
 
-student.standard = 14;
+student.standard = 67;
 
 //index signature 
-const nameAndAge: {[index: string]: number} = {}
+const nameAndAge: {[index:number]: number} = {}
 
-nameAndAge.ravi = 24;
+nameAndAge[6] = 24;
 // nameAndAge.shiv = "Twenty"      //string is not assignable to number

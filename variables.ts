@@ -1,7 +1,7 @@
 
 //Explicit type declaration of the variable 
 
-let age : number = 23
+let score : number = 23
 
 //Implicit type declaration 
 //Implicit assignment forces TypeScript to infer the value.
@@ -20,6 +20,7 @@ let carName = "Suzuki"
 // carName = 123       //it also throw error as already declared value is of type string
 
 // types 
+
 //three main primitives in js & ts
 
 // boolean - true or false values

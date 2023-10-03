@@ -43,6 +43,6 @@ interface coloredCar extends CarDetail{
 const newCar: coloredCar = {
     year:2017,
     name:"Tata",
-    owner: "Sachine",
+    owner: "Sachin",
     color: "blue"
 }

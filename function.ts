@@ -37,7 +37,7 @@ function add({fNum, sNum}:{fNum: number, sNum: number}){
     return fNum + sNum;
 }
 
-let addition = add({ fNum: 123, sNum: 23})
+let addition = add({ fNum: 45, sNum: 23})
 
 //rest parameters type must be an array
 
