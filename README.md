@@ -1,3 +1,6 @@
+# TypeScript
+### It is the superset of JavaScript. Which is used to add static typing in the javascript
+
 # Primitive Types
 ### string , number, boolean, bigint, undefined, null, symbol
 
@@ -30,3 +33,11 @@ age = '23'; // string
 let age: any = 12;
 age = 'twelve';
 ```
+
+# Literal Types
+### Type can be refer to specific string and numbers
+```typescript
+let result: 'Pass' | 'Fail';
+result = 'Pass';
+```
+
