@@ -6,11 +6,12 @@
 
 class Student {
     private name: string;
-    private age: number
-
-    constructor(name: string,age: number){
+    private age: number;
+    public role: string;
+    constructor(name: string,age: number,role: string){
         this.name = name,
-        this.age = age
+        this.age = age,
+        this.role = role
     }
     
     getDetails():string{
@@ -18,10 +19,10 @@ class Student {
     } 
 }
 
-let newStud = new Student("shiv",18);
+let newStud = new Student("shiv",18, "Backend-Dev");
 let studName = newStud.getDetails()
-
-console.log(studName)
+let role = newStud.role
+console.log(studName, role)
 
 
 //parameter properties 
