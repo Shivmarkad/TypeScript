@@ -14,3 +14,9 @@ function multiDataType(data) {
 }
 console.log(multiDataType(["Completed", 24]));
 console.log(multiDataType([24, "Incomplete"]));
+// type lock in typescript
+function data(para) {
+    return para[0];
+}
+console.log(data([76, 99, 12])); // returns number 
+console.log(data(['Hello', 'This is array'])); // returns string

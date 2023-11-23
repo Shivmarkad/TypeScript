@@ -23,3 +23,14 @@ function multiDataType(data:(string | number)[]): string | number { // returns s
 
 console.log(multiDataType(["Completed", 24]))
 console.log(multiDataType([24, "Incomplete"]))
+
+
+// type lock in typescript
+
+function data<T>(para:T[]): T {
+    return para[0]
+}
+
+console.log(data([76,99, 12]))      // returns number 
+
+console.log(data(['Hello', 'This is array'])) // returns string
