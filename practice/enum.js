@@ -2,6 +2,6 @@
 var options;
 (function (options) {
     options[options["READY"] = 0] = "READY";
-    options[options["NOT_READY"] = 1] = "NOT_READY";
+    options[options["NOT_READY"] = 1] = "NOT_READY"; // 1 order 1 value
 })(options || (options = {}));
-console.log(options.NOT_READY);
+console.log(options.NOT_READY); // default value one for first value
